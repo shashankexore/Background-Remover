@@ -4,11 +4,13 @@
 This project implements an advanced background removal tool using the `rembg` library. Users can select an image, and the system automatically removes the background while refining the extracted foreground. The goal is to provide a seamless and efficient background removal process for various applications, such as photo editing, object detection, and computer vision tasks.
 
 ## Features
-- **Automatic Background Removal**: Uses the `rembg` library for precise background removal.
-- **User-Friendly Interface**: A simple GUI built with Tkinter allows users to select and process images effortlessly.
-- **Real-Time Preview**: Displays the processed image immediately after background removal.
-- **Save Processed Images**: Users can save the output image after processing.
-- **Custom Styling**: Visually appealing interface with intuitive buttons and canvases.
+
+- Remove image backgrounds using `rembg`
+- Set custom background color from a preset list, hex input, or color picker
+- Use your own background photo
+- Drag and reposition the subject (foreground) over the background
+- Save your final image after editing
+
 
 ## Technologies Used
 - **Python**: The programming language used for development.
